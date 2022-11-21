@@ -1,9 +1,10 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using Application.LogicInterfaces;
 using Domain.Models;
 
-namespace WebAPI.Services;
+namespace Application.Logic;
 
-public class AuthService : IAuthService
+public class AuthLogic : IAuthLogic
 {
 
     private readonly IList<User> users = new List<User>
@@ -13,8 +14,7 @@ public class AuthService : IAuthService
             UserName = "Maanz",
             Password = "1FinePassword!",
             Name = "Alexander Redder",
-            Id = 6,
-            SecurityLevel = 4
+            Id = 6
         }
     };
 

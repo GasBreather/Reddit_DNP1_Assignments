@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Alexander Redder\\RiderProjects\\Reddit_DNP1_assignments\\WebAPI\\WebAPI.csproj": {}
+    "C:\\Users\\Alexander Redder\\RiderProjects\\Reddit_DNP1_Assignments\\WebAPI\\WebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Alexander Redder\\RiderProjects\\Reddit_DNP1_assignments\\Application\\Application.csproj": {
+    "C:\\Users\\Alexander Redder\\RiderProjects\\Reddit_DNP1_Assignments\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alexander Redder\\RiderProjects\\Reddit_DNP1_assignments\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\Alexander Redder\\RiderProjects\\Reddit_DNP1_Assignments\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\Alexander Redder\\RiderProjects\\Reddit_DNP1_assignments\\Application\\Application.csproj",
+        "projectPath": "C:\\Users\\Alexander Redder\\RiderProjects\\Reddit_DNP1_Assignments\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\Alexander Redder\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alexander Redder\\RiderProjects\\Reddit_DNP1_assignments\\Application\\obj\\",
+        "outputPath": "C:\\Users\\Alexander Redder\\RiderProjects\\Reddit_DNP1_Assignments\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Alexander Redder\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,8 +26,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Alexander Redder\\RiderProjects\\Reddit_DNP1_assignments\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\Alexander Redder\\RiderProjects\\Reddit_DNP1_assignments\\Domain\\Domain.csproj"
+              "C:\\Users\\Alexander Redder\\RiderProjects\\Reddit_DNP1_Assignments\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Alexander Redder\\RiderProjects\\Reddit_DNP1_Assignments\\Domain\\Domain.csproj"
               }
             }
           }
@@ -60,14 +60,14 @@
         }
       }
     },
-    "C:\\Users\\Alexander Redder\\RiderProjects\\Reddit_DNP1_assignments\\Domain\\Domain.csproj": {
+    "C:\\Users\\Alexander Redder\\RiderProjects\\Reddit_DNP1_Assignments\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alexander Redder\\RiderProjects\\Reddit_DNP1_assignments\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Alexander Redder\\RiderProjects\\Reddit_DNP1_Assignments\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\Alexander Redder\\RiderProjects\\Reddit_DNP1_assignments\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\Alexander Redder\\RiderProjects\\Reddit_DNP1_Assignments\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Alexander Redder\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alexander Redder\\RiderProjects\\Reddit_DNP1_assignments\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\Alexander Redder\\RiderProjects\\Reddit_DNP1_Assignments\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Alexander Redder\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -118,14 +118,14 @@
         }
       }
     },
-    "C:\\Users\\Alexander Redder\\RiderProjects\\Reddit_DNP1_assignments\\FileData\\FileData.csproj": {
+    "C:\\Users\\Alexander Redder\\RiderProjects\\Reddit_DNP1_Assignments\\EfcDataAccess\\EfcDataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alexander Redder\\RiderProjects\\Reddit_DNP1_assignments\\FileData\\FileData.csproj",
-        "projectName": "FileData",
-        "projectPath": "C:\\Users\\Alexander Redder\\RiderProjects\\Reddit_DNP1_assignments\\FileData\\FileData.csproj",
+        "projectUniqueName": "C:\\Users\\Alexander Redder\\RiderProjects\\Reddit_DNP1_Assignments\\EfcDataAccess\\EfcDataAccess.csproj",
+        "projectName": "EfcDataAccess",
+        "projectPath": "C:\\Users\\Alexander Redder\\RiderProjects\\Reddit_DNP1_Assignments\\EfcDataAccess\\EfcDataAccess.csproj",
         "packagesPath": "C:\\Users\\Alexander Redder\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alexander Redder\\RiderProjects\\Reddit_DNP1_assignments\\FileData\\obj\\",
+        "outputPath": "C:\\Users\\Alexander Redder\\RiderProjects\\Reddit_DNP1_Assignments\\EfcDataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Alexander Redder\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -140,8 +140,64 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Alexander Redder\\RiderProjects\\Reddit_DNP1_assignments\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\Alexander Redder\\RiderProjects\\Reddit_DNP1_assignments\\Application\\Application.csproj"
+              "C:\\Users\\Alexander Redder\\RiderProjects\\Reddit_DNP1_Assignments\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\Alexander Redder\\RiderProjects\\Reddit_DNP1_Assignments\\Application\\Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Alexander Redder\\RiderProjects\\Reddit_DNP1_Assignments\\FileData\\FileData.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Alexander Redder\\RiderProjects\\Reddit_DNP1_Assignments\\FileData\\FileData.csproj",
+        "projectName": "FileData",
+        "projectPath": "C:\\Users\\Alexander Redder\\RiderProjects\\Reddit_DNP1_Assignments\\FileData\\FileData.csproj",
+        "packagesPath": "C:\\Users\\Alexander Redder\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Alexander Redder\\RiderProjects\\Reddit_DNP1_Assignments\\FileData\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Alexander Redder\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Alexander Redder\\RiderProjects\\Reddit_DNP1_Assignments\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\Alexander Redder\\RiderProjects\\Reddit_DNP1_Assignments\\Application\\Application.csproj"
               }
             }
           }
@@ -180,14 +236,14 @@
         }
       }
     },
-    "C:\\Users\\Alexander Redder\\RiderProjects\\Reddit_DNP1_assignments\\WebAPI\\WebAPI.csproj": {
+    "C:\\Users\\Alexander Redder\\RiderProjects\\Reddit_DNP1_Assignments\\WebAPI\\WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alexander Redder\\RiderProjects\\Reddit_DNP1_assignments\\WebAPI\\WebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Alexander Redder\\RiderProjects\\Reddit_DNP1_Assignments\\WebAPI\\WebAPI.csproj",
         "projectName": "WebAPI",
-        "projectPath": "C:\\Users\\Alexander Redder\\RiderProjects\\Reddit_DNP1_assignments\\WebAPI\\WebAPI.csproj",
+        "projectPath": "C:\\Users\\Alexander Redder\\RiderProjects\\Reddit_DNP1_Assignments\\WebAPI\\WebAPI.csproj",
         "packagesPath": "C:\\Users\\Alexander Redder\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alexander Redder\\RiderProjects\\Reddit_DNP1_assignments\\WebAPI\\obj\\",
+        "outputPath": "C:\\Users\\Alexander Redder\\RiderProjects\\Reddit_DNP1_Assignments\\WebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Alexander Redder\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -202,11 +258,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Alexander Redder\\RiderProjects\\Reddit_DNP1_assignments\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\Alexander Redder\\RiderProjects\\Reddit_DNP1_assignments\\Application\\Application.csproj"
+              "C:\\Users\\Alexander Redder\\RiderProjects\\Reddit_DNP1_Assignments\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\Alexander Redder\\RiderProjects\\Reddit_DNP1_Assignments\\Application\\Application.csproj"
               },
-              "C:\\Users\\Alexander Redder\\RiderProjects\\Reddit_DNP1_assignments\\FileData\\FileData.csproj": {
-                "projectPath": "C:\\Users\\Alexander Redder\\RiderProjects\\Reddit_DNP1_assignments\\FileData\\FileData.csproj"
+              "C:\\Users\\Alexander Redder\\RiderProjects\\Reddit_DNP1_Assignments\\EfcDataAccess\\EfcDataAccess.csproj": {
+                "projectPath": "C:\\Users\\Alexander Redder\\RiderProjects\\Reddit_DNP1_Assignments\\EfcDataAccess\\EfcDataAccess.csproj"
+              },
+              "C:\\Users\\Alexander Redder\\RiderProjects\\Reddit_DNP1_Assignments\\FileData\\FileData.csproj": {
+                "projectPath": "C:\\Users\\Alexander Redder\\RiderProjects\\Reddit_DNP1_Assignments\\FileData\\FileData.csproj"
               }
             }
           }

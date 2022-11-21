@@ -2187,11 +2187,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Alexander Redder\\RiderProjects\\Reddit_DNP1_assignments\\BlazorWASM\\BlazorWASM.csproj",
+      "projectUniqueName": "C:\\Users\\Alexander Redder\\RiderProjects\\Reddit_DNP1_Assignments\\BlazorWASM\\BlazorWASM.csproj",
       "projectName": "BlazorWASM",
-      "projectPath": "C:\\Users\\Alexander Redder\\RiderProjects\\Reddit_DNP1_assignments\\BlazorWASM\\BlazorWASM.csproj",
+      "projectPath": "C:\\Users\\Alexander Redder\\RiderProjects\\Reddit_DNP1_Assignments\\BlazorWASM\\BlazorWASM.csproj",
       "packagesPath": "C:\\Users\\Alexander Redder\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Alexander Redder\\RiderProjects\\Reddit_DNP1_assignments\\BlazorWASM\\obj\\",
+      "outputPath": "C:\\Users\\Alexander Redder\\RiderProjects\\Reddit_DNP1_Assignments\\BlazorWASM\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Alexander Redder\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -2206,8 +2206,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Alexander Redder\\RiderProjects\\Reddit_DNP1_assignments\\HttpClients\\HttpClients.csproj": {
-              "projectPath": "C:\\Users\\Alexander Redder\\RiderProjects\\Reddit_DNP1_assignments\\HttpClients\\HttpClients.csproj"
+            "C:\\Users\\Alexander Redder\\RiderProjects\\Reddit_DNP1_Assignments\\HttpClients\\HttpClients.csproj": {
+              "projectPath": "C:\\Users\\Alexander Redder\\RiderProjects\\Reddit_DNP1_Assignments\\HttpClients\\HttpClients.csproj"
             }
           }
         }

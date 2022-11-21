@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gJOs5F8+CC/D1Ujv1FOMtmd8gRqg8zOV0KfkLr6SVmD9Zlk27dOPX5S6U4uWUy/mV3V5jwwelPl7iC5khfQu/A==",
+  "dgSpecHash": "6OvFWNaY3ykDtR+SvAgSdxqxanB5ZLKOhuziWrdFn8Z8g/qxEBPlcwFARfbyertijcfnW/hHdFUwDn7+tXnp0A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Alexander Redder\\RiderProjects\\Reddit_DNP1_assignments\\WebAPI\\WebAPI.csproj",
+  "projectFilePath": "C:\\Users\\Alexander Redder\\RiderProjects\\Reddit_DNP1_Assignments\\WebAPI\\WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alexander Redder\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.10\\microsoft.aspnetcore.authentication.jwtbearer.6.0.10.nupkg.sha512",
     "C:\\Users\\Alexander Redder\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.10\\microsoft.aspnetcore.authorization.6.0.10.nupkg.sha512",

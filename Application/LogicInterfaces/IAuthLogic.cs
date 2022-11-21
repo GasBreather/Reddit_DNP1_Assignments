@@ -1,8 +1,8 @@
 ﻿using Domain.Models;
 
-namespace WebAPI.Services;
+namespace Application.LogicInterfaces;
 
-public interface IAuthService
+public interface IAuthLogic
 {
     Task RegisterUser(User user);
     Task<User> ValidateUser(string username, string password);

@@ -28,3 +28,18 @@ C:\Users\Skole\Desktop\Software ingeniør\3. Semester\DNP1\All_assignments\Reddi
 C:\Users\Skole\Desktop\Software ingeniør\3. Semester\DNP1\All_assignments\Reddit\HttpClients\obj\Debug\net6.0\HttpClients.dll
 C:\Users\Skole\Desktop\Software ingeniør\3. Semester\DNP1\All_assignments\Reddit\HttpClients\obj\Debug\net6.0\ref\HttpClients.dll
 C:\Users\Skole\Desktop\Software ingeniør\3. Semester\DNP1\All_assignments\Reddit\HttpClients\obj\Debug\net6.0\HttpClients.pdb
+C:\Users\Alexander Redder\RiderProjects\Reddit_DNP1_Assignments\HttpClients\bin\Debug\net6.0\HttpClients.deps.json
+C:\Users\Alexander Redder\RiderProjects\Reddit_DNP1_Assignments\HttpClients\bin\Debug\net6.0\HttpClients.dll
+C:\Users\Alexander Redder\RiderProjects\Reddit_DNP1_Assignments\HttpClients\bin\Debug\net6.0\ref\HttpClients.dll
+C:\Users\Alexander Redder\RiderProjects\Reddit_DNP1_Assignments\HttpClients\bin\Debug\net6.0\HttpClients.pdb
+C:\Users\Alexander Redder\RiderProjects\Reddit_DNP1_Assignments\HttpClients\bin\Debug\net6.0\Domain.dll
+C:\Users\Alexander Redder\RiderProjects\Reddit_DNP1_Assignments\HttpClients\bin\Debug\net6.0\Domain.pdb
+C:\Users\Alexander Redder\RiderProjects\Reddit_DNP1_Assignments\HttpClients\obj\Debug\net6.0\HttpClients.csproj.AssemblyReference.cache
+C:\Users\Alexander Redder\RiderProjects\Reddit_DNP1_Assignments\HttpClients\obj\Debug\net6.0\HttpClients.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alexander Redder\RiderProjects\Reddit_DNP1_Assignments\HttpClients\obj\Debug\net6.0\HttpClients.AssemblyInfoInputs.cache
+C:\Users\Alexander Redder\RiderProjects\Reddit_DNP1_Assignments\HttpClients\obj\Debug\net6.0\HttpClients.AssemblyInfo.cs
+C:\Users\Alexander Redder\RiderProjects\Reddit_DNP1_Assignments\HttpClients\obj\Debug\net6.0\HttpClients.csproj.CoreCompileInputs.cache
+C:\Users\Alexander Redder\RiderProjects\Reddit_DNP1_Assignments\HttpClients\obj\Debug\net6.0\HttpClients.csproj.CopyComplete
+C:\Users\Alexander Redder\RiderProjects\Reddit_DNP1_Assignments\HttpClients\obj\Debug\net6.0\HttpClients.dll
+C:\Users\Alexander Redder\RiderProjects\Reddit_DNP1_Assignments\HttpClients\obj\Debug\net6.0\ref\HttpClients.dll
+C:\Users\Alexander Redder\RiderProjects\Reddit_DNP1_Assignments\HttpClients\obj\Debug\net6.0\HttpClients.pdb

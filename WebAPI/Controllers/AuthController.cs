@@ -1,28 +1,43 @@
 ﻿using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
+using Application.LogicInterfaces;
 using Domain.DTOs;
 using Domain.Models;
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
-using WebAPI.Services;
 using JwtRegisteredClaimNames = Microsoft.IdentityModel.JsonWebTokens.JwtRegisteredClaimNames;
 
 namespace WebAPI.Controllers;
 
 [ApiController]
 [Route("[controller]")]
-[Authorize]
 public class AuthController : ControllerBase
 {
     private readonly IConfiguration config;
-    private readonly IAuthService authService;
+    private readonly IAuthLogic authLogic;
 
-    public AuthController(IConfiguration config, IAuthService authService)
+    public AuthController(IConfiguration config, IAuthLogic authLogic)
     {
         this.config = config;
-        this.authService = authService;
+        this.authLogic = authLogic;
+    }
+    
+    [HttpPost, Route("login")]
+    public async Task<ActionResult> Login([FromBody] UserLoginDto userLoginDto)
+    {
+        try
+        {
+            User user = await authLogic.ValidateUser(userLoginDto.Username, userLoginDto.Password);
+            string token = GenerateJwt(user);
+    
+            return Ok(token);
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e.Message);
+            return BadRequest(e.Message);
+        }
     }
     private List<Claim> GenerateClaims(User user)
     {
@@ -33,7 +48,6 @@ public class AuthController : ControllerBase
             new Claim(JwtRegisteredClaimNames.Iat, DateTime.UtcNow.ToString()),
             new Claim(ClaimTypes.Name, user.UserName),
             new Claim("DisplayName", user.Name),
-            new Claim("SecurityLevel", user.SecurityLevel.ToString()),
             new Claim("Id", user.Id.ToString())
         };
         return claims.ToList();
@@ -58,36 +72,5 @@ public class AuthController : ControllerBase
     
         string serializedToken = new JwtSecurityTokenHandler().WriteToken(token);
         return serializedToken;
-    }
-    [HttpPost, Route("login")]
-    public async Task<ActionResult> Login([FromBody] UserLoginDto userLoginDto)
-    {
-        try
-        {
-            User user = await authService.ValidateUser(userLoginDto.Username, userLoginDto.Password);
-            string token = GenerateJwt(user);
-    
-            return Ok(token);
-        }
-        catch (Exception e)
-        {
-            return BadRequest(e.Message);
-        }
-    }
-    [HttpGet("authorized"), Authorize]
-    public ActionResult GetAsAuthorized()
-    {
-        return Ok("This was accepted as authorized");
-    }
-    [HttpGet("allowanon"), AllowAnonymous]
-    public ActionResult GetAsAnon()
-    {
-        return Ok("This was accepted as anonymous");
-    }
-
-    [HttpGet("securitylevel"), Authorize("SecurityLevel4")]
-    public ActionResult GetAsSecurityLevel()
-    {
-        return Ok("Accepted as security level");
     }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hX/3G+AQzRw+jhMbXbm6BeJhD+y5xF8lAELJF9WIYKrkLGzq5DYAt75tke4sHyKRRSJxck7b7Lm9PPtMVXcRBw==",
+  "dgSpecHash": "mL41opHq4I5iLpsP4Pk5LvMV9LjAiAoeZkH0n5LVNzTwqz24tpV3ipfOkTpkZWBb2hgjVVT4Cd36IJLyYI5zKw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Alexander Redder\\RiderProjects\\Reddit_DNP1_assignments\\BlazorWASM\\BlazorWASM.csproj",
+  "projectFilePath": "C:\\Users\\Alexander Redder\\RiderProjects\\Reddit_DNP1_Assignments\\BlazorWASM\\BlazorWASM.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alexander Redder\\.nuget\\packages\\libsassbuilder\\2.0.1\\libsassbuilder.2.0.1.nupkg.sha512",
     "C:\\Users\\Alexander Redder\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.10\\microsoft.aspnetcore.authorization.6.0.10.nupkg.sha512",
