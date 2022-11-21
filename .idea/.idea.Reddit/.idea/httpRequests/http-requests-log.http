@@ -1,4 +1,13 @@
-﻿GET https://localhost:7157/Test/allowanon
+﻿POST https://localhost:7157/auth/login
+Content-Type: application/json
+
+{ "userName" : "Maanz", "Password" : "1FinePassword!" }
+
+<> 2022-11-21T155359.200.txt
+
+###
+
+GET https://localhost:7157/Test/allowanon
 
 <> 2022-11-21T141647.200.txt
 
@@ -344,13 +353,6 @@ Content-Type: application/json
 { "Username" : "Maanz", "Password" : "1FinePassword!" }
 
 <> 2022-11-08T142410.200.txt
-
-###
-
-GET https://localhost:7157/test/authorized
-Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJKV1RTZXJ2aWNlQWNjZXNzVG9rZW4iLCJqdGkiOiJiYTJmOTM5Yi01MDAwLTRkMzItODNkNC0zZWQyZDViZDFjNTEiLCJpYXQiOiIwOC0xMS0yMDIyIDEzOjIzOjE5IiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6Ik1hYW56IiwiRGlzcGxheU5hbWUiOiJBbGV4YW5kZXIgUmVkZGVyIiwiU2VjdXJpdHlMZXZlbCI6IjQiLCJJZCI6IjYiLCJleHAiOjE2Njc5MTczOTksImlzcyI6IkpXVEF1dGhlbnRpY2F0aW9uU2VydmVyIiwiYXVkIjoiSldUU2VydmljZUJsYXpvcldhc21DbGllbnQifQ.Hw2yGp5wsSy2_V_Y5M1I8FTHMc1BDx_5Qxb1BDwQ219jCvKDwP_rg2j4tYTXUqHwPeADIYH1-KvsNbaZvDuMEA
-
-<> 2022-11-08T142338.200.txt
 
 ###
 

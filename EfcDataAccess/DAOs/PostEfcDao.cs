@@ -30,4 +30,11 @@ public class PostEfcDao : IPostDao
     {
         throw new NotImplementedException();
     }
+    
+    private readonly PostContext context;
+
+    public PostEfcDao(PostContext context)
+    {
+        this.context = context;
+    }
 }

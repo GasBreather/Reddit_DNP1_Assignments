@@ -1,4 +1,5 @@
-﻿using System.Reflection.Metadata;
+﻿using System.ComponentModel.DataAnnotations;
+using System.Reflection.Metadata;
 using Domain.DTOs;
 
 namespace Domain.Models;
@@ -16,5 +17,6 @@ public class Post
         this.Title = Title;
         this.Body = Body;
     }
+    private Post(){}
 
 }
