@@ -1,0 +1,349 @@
+﻿POST https://localhost:7157/auth/login
+Content-Type: application/json
+
+{ "Username" : "Maanz", "Password" : "1FinePassword!" }
+
+###
+
+POST https://localhost:7157/auth/login
+Content-Type: application/json
+
+{ "Username" : "Maanz", "Password" : "1FinePassword!" }
+
+###
+
+POST https://localhost:7157/auth/login
+Content-Type: application/json
+
+{ "Username" : "Maanz", "Password" : "1FinePassword!" }
+
+###
+
+GET https://localhost:7157/Test/allowanon
+
+<> 2022-11-21T101652.200.txt
+
+###
+
+POST https://localhost:7157/auth/login
+Content-Type: application/json
+
+{ "Username" : "Maanz", "Password" : "1FinePassword!" }
+
+###
+
+POST https://localhost:7157/auth/login
+Content-Type: application/json
+
+{ "Username" : "Maanz", "Password" : "1FinePassword!" }
+
+###
+
+POST https://localhost:7157/auth/login
+Content-Type: application/json
+
+{ "Username" : "Maanz", "Password" : "1FinePassword!" }
+
+###
+
+POST https://localhost:7157/auth/login
+Content-Type: application/json
+
+{ "Username" : "Maanz", "Password" : "1FinePassword!" }
+
+###
+
+GET https://localhost:7157/Test/allowanon
+
+<> 2022-11-20T142312.200.txt
+
+###
+
+POST https://localhost:7157/auth/login
+Content-Type: application/json
+
+{ "Username" : "Maanz", "Password" : "1FinePassword!" }
+
+###
+
+POST https://localhost:7157/auth/login
+Content-Type: application/json
+
+{ "Username" : "Maanz", "Password" : "1FinePassword!" }
+
+###
+
+POST https://localhost:7157/auth/login
+Content-Type: application/json
+
+{ "Username" : "Maanz", "Password" : "1FinePassword!" }
+
+###
+
+POST https://localhost:7157/auth/login
+Content-Type: application/json
+
+{ "Username" : "Maanz", "Password" : "1FinePassword!" }
+
+###
+
+POST https://localhost:7157/auth/login
+Content-Type: application/json
+
+{ "Username" : "Maanz", "Password" : "1FinePassword!" }
+
+###
+
+POST https://localhost:7157/auth/login
+Content-Type: application/json
+
+{ "Username" : "Maanz", "Password" : "1FinePassword!" }
+
+###
+
+GET https://localhost:7157/test/authorized
+Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJKV1RTZXJ2aWNlQWNjZXNzVG9rZW4iLCJqdGkiOiI5ZDVjOTg4OC0zOWFiLTQ5MjUtYTc4ZS0yNzdiYWRkNTg5ZDMiLCJpYXQiOiIwOC0xMS0yMDIyIDEzOjMxOjAyIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6Ik1hYW56IiwiRGlzcGxheU5hbWUiOiJBbGV4YW5kZXIgUmVkZGVyIiwiU2VjdXJpdHlMZXZlbCI6IjQiLCJJZCI6IjYiLCJleHAiOjE2Njc5MTc4NjIsImlzcyI6IkpXVEF1dGhlbnRpY2F0aW9uU2VydmVyIiwiYXVkIjoiSldUU2VydmljZUJsYXpvcldhc21DbGllbnQifQ.Y942pe8wCcETjqmM8f582h4YHShJ-vp36rpljO4LCUIhH9x96NfKYELCUV3eyVTAYiSKW4mseoIjhzUTL7ZyKg
+
+<> 2022-11-08T143114.200.txt
+
+###
+
+POST https://localhost:7157/auth/login
+Content-Type: application/json
+
+{ "Username" : "Maanz", "Password" : "1FinePassword!" }
+
+<> 2022-11-08T143102.200.txt
+
+###
+
+GET https://localhost:7157/test/authorized
+Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJKV1RTZXJ2aWNlQWNjZXNzVG9rZW4iLCJqdGkiOiI3M2QwNGJjYS00YzY2LTQzNmUtOGUwZi0xOWFhZGExOGZkOTkiLCJpYXQiOiIwOC0xMS0yMDIyIDEzOjMwOjI1IiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6Ik1hYW56IiwiRGlzcGxheU5hbWUiOiJBbGV4YW5kZXIgUmVkZGVyIiwiU2VjdXJpdHlMZXZlbCI6IjQiLCJJZCI6IjYiLCJleHAiOjE2Njc5MTc4MjUsImlzcyI6IkpXVEF1dGhlbnRpY2F0aW9uU2VydmVyIiwiYXVkIjoiSldUU2VydmljZUJsYXpvcldhc21DbGllbnQifQ.LRGwPA8rPOSdihxmc5lAwG4d1MrjFjmgYiyIXRmeffYxfYZDwP7airH9aeco-T6d98SSTl2RDF3dGDqfVcu4AA
+
+###
+
+POST https://localhost:7157/auth/login
+Content-Type: application/json
+
+{ "Username" : "Maanz", "Password" : "1FinePassword!" }
+
+<> 2022-11-08T143025.200.txt
+
+###
+
+GET https://localhost:7157/test/authorized
+Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJKV1RTZXJ2aWNlQWNjZXNzVG9rZW4iLCJqdGkiOiIzZTE1MWE5ZS02NDFmLTQyYzgtYTdkMS05NDA3MGNhYmQ2NzAiLCJpYXQiOiIwOC0xMS0yMDIyIDEzOjI5OjEyIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6Ik1hYW56IiwiRGlzcGxheU5hbWUiOiJBbGV4YW5kZXIgUmVkZGVyIiwiU2VjdXJpdHlMZXZlbCI6IjQiLCJJZCI6IjYiLCJleHAiOjE2Njc5MTc3NTIsImlzcyI6IkpXVEF1dGhlbnRpY2F0aW9uU2VydmVyIiwiYXVkIjoiSldUU2VydmljZUJsYXpvcldhc21DbGllbnQifQ.lvpamdzvKoGy27EMlg4VIQ1vetrs70-pASDCzsp7KvjqsegouwBYSAbINzphReeeYcRJReaA2V9qNzI8K44rug
+
+<> 2022-11-08T142924.200.txt
+
+###
+
+POST https://localhost:7157/auth/login
+Content-Type: application/json
+
+{ "Username" : "Maanz", "Password" : "1FinePassword!" }
+
+<> 2022-11-08T142912.200.txt
+
+###
+
+GET https://localhost:7157/test/authorized
+Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJKV1RTZXJ2aWNlQWNjZXNzVG9rZW4iLCJqdGkiOiI2NzNhY2RlOS1lN2Y0LTRhNmYtYTlhNS0xZGQ4NWVmNDhmYWIiLCJpYXQiOiIwOC0xMS0yMDIyIDEzOjI3OjM2IiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6Ik1hYW56IiwiRGlzcGxheU5hbWUiOiJBbGV4YW5kZXIgUmVkZGVyIiwiU2VjdXJpdHlMZXZlbCI6IjQiLCJJZCI6IjYiLCJleHAiOjE2Njc5MTc2NTYsImlzcyI6IkpXVEF1dGhlbnRpY2F0aW9uU2VydmVyIiwiYXVkIjoiSldUU2VydmljZUJsYXpvcldhc21DbGllbnQifQ.1DsPKqgqVo7Cp_lg8Al0cLdAgTCtf1UE48mL9HVHQSHrhvA1eYjotGIOLxVvjs0dChDrOlHTK9Zs0DNUTOvmAA
+
+###
+
+POST https://localhost:7157/auth/login
+Content-Type: application/json
+
+{ "Username" : "Maanz", "Password" : "1FinePassword!" }
+
+<> 2022-11-08T142736.200.txt
+
+###
+
+GET https://localhost:7157/test/authorized
+Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJKV1RTZXJ2aWNlQWNjZXNzVG9rZW4iLCJqdGkiOiI0MjBiMTU1NS1iYTFmLTQ3OTItYWZlOC00MzUzNmQxNDUzOWEiLCJpYXQiOiIwOC0xMS0yMDIyIDEzOjI2OjM0IiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6Ik1hYW56IiwiRGlzcGxheU5hbWUiOiJBbGV4YW5kZXIgUmVkZGVyIiwiU2VjdXJpdHlMZXZlbCI6IjQiLCJJZCI6IjYiLCJleHAiOjE2Njc5MTc1OTQsImlzcyI6IkpXVEF1dGhlbnRpY2F0aW9uU2VydmVyIiwiYXVkIjoiSldUU2VydmljZUJsYXpvcldhc21DbGllbnQifQ.Wx05B38a3wtJ6j0a0poFkYm5_Sq2WuuvAdFqJ89yeued7M9GRoh8PSsKuNoiEGbsVewYV8MHIaqex4oaWOXOag
+
+<> 2022-11-08T142654.200.txt
+
+###
+
+POST https://localhost:7157/auth/login
+Content-Type: application/json
+
+{ "Username" : "Maanz", "Password" : "1FinePassword!" }
+
+<> 2022-11-08T142634.200.txt
+
+###
+
+GET https://localhost:7157/test/authorized
+Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJKV1RTZXJ2aWNlQWNjZXNzVG9rZW4iLCJqdGkiOiIwNTczODQwYS1kMDliLTRiNDMtYTJmYi02NGFhYjBiZmNlNjMiLCJpYXQiOiIwOC0xMS0yMDIyIDEzOjI1OjQ2IiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6Ik1hYW56IiwiRGlzcGxheU5hbWUiOiJBbGV4YW5kZXIgUmVkZGVyIiwiU2VjdXJpdHlMZXZlbCI6IjQiLCJJZCI6IjYiLCJleHAiOjE2Njc5MTc1NDYsImlzcyI6IkpXVEF1dGhlbnRpY2F0aW9uU2VydmVyIiwiYXVkIjoiSldUU2VydmljZUJsYXpvcldhc21DbGllbnQifQ.BGCR_fhGPB9Jm6kKwI3SRml7kwwcH6O6HtoIU3v1vDAggP02Z1F2EcQLMq6Gj_fj-CSG8TgndBaGvMqCLAQw9Q
+
+<> 2022-11-08T142558.200.txt
+
+###
+
+POST https://localhost:7157/auth/login
+Content-Type: application/json
+
+{ "Username" : "Maanz", "Password" : "1FinePassword!" }
+
+<> 2022-11-08T142546.200.txt
+
+###
+
+GET https://localhost:7157/test/authorized
+Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJKV1RTZXJ2aWNlQWNjZXNzVG9rZW4iLCJqdGkiOiJiZGEzNmM3ZS04OWE0LTQwNmEtYTI1Ny0xN2ExODlkZWYzOGEiLCJpYXQiOiIwOC0xMS0yMDIyIDEzOjI0OjA5IiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6Ik1hYW56IiwiRGlzcGxheU5hbWUiOiJBbGV4YW5kZXIgUmVkZGVyIiwiU2VjdXJpdHlMZXZlbCI6IjQiLCJJZCI6IjYiLCJleHAiOjE2Njc5MTc0NDksImlzcyI6IkpXVEF1dGhlbnRpY2F0aW9uU2VydmVyIiwiYXVkIjoiSldUU2VydmljZUJsYXpvcldhc21DbGllbnQifQ.K8YEfLsR8cv5BCt2smrjdAmlGPZ8nhGCmOsaClNS1txc-iLTL9xr3xBbH3KBqnr1S279A2ScbdisC9EtwkACYA
+
+<> 2022-11-08T142527.200.txt
+
+###
+
+POST https://localhost:7157/auth/login
+Content-Type: application/json
+
+{ "Username" : "Maanz", "Password" : "1FinePassword!" }
+
+<> 2022-11-08T142410.200.txt
+
+###
+
+GET https://localhost:7157/test/authorized
+Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJKV1RTZXJ2aWNlQWNjZXNzVG9rZW4iLCJqdGkiOiJiYTJmOTM5Yi01MDAwLTRkMzItODNkNC0zZWQyZDViZDFjNTEiLCJpYXQiOiIwOC0xMS0yMDIyIDEzOjIzOjE5IiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6Ik1hYW56IiwiRGlzcGxheU5hbWUiOiJBbGV4YW5kZXIgUmVkZGVyIiwiU2VjdXJpdHlMZXZlbCI6IjQiLCJJZCI6IjYiLCJleHAiOjE2Njc5MTczOTksImlzcyI6IkpXVEF1dGhlbnRpY2F0aW9uU2VydmVyIiwiYXVkIjoiSldUU2VydmljZUJsYXpvcldhc21DbGllbnQifQ.Hw2yGp5wsSy2_V_Y5M1I8FTHMc1BDx_5Qxb1BDwQ219jCvKDwP_rg2j4tYTXUqHwPeADIYH1-KvsNbaZvDuMEA
+
+<> 2022-11-08T142338.200.txt
+
+###
+
+POST https://localhost:7157/auth/login
+Content-Type: application/json
+
+{ "Username" : "Maanz", "Password" : "1FinePassword!" }
+
+<> 2022-11-08T142320.200.txt
+
+###
+
+GET https://localhost:7157/test/authorized
+Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJKV1RTZXJ2aWNlQWNjZXNzVG9rZW4iLCJqdGkiOiJjYTI2OThlMy1jN2ZjLTQ0M2MtYjk0YS1mMjExNmU1NTc1NzciLCJpYXQiOiIwOC0xMS0yMDIyIDEzOjE4OjI4IiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6Ik1hYW56IiwiRGlzcGxheU5hbWUiOiJBbGV4YW5kZXIgUmVkZGVyIiwiU2VjdXJpdHlMZXZlbCI6IjQiLCJJZCI6IjYiLCJleHAiOjE2Njc5MTcxMDgsImlzcyI6IkpXVEF1dGhlbnRpY2F0aW9uU2VydmVyIiwiYXVkIjoiSldUU2VydmljZUJsYXpvcldhc21DbGllbnQifQ.wb-P7APDcv1mWQTUt_V2D1fjLwO6QhNl6cZAOUWn9LtPodhEgPR5dfh9CNB9EZP_bpP46Owi5blEgbZ3G-MgBA
+
+###
+
+POST https://localhost:7157/auth/login
+Content-Type: application/json
+
+{ "Username" : "Maanz", "Password" : "1FinePassword!" }
+
+<> 2022-11-08T141828.200.txt
+
+###
+
+GET https://localhost:7157/test/securitylevel
+Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJKV1RTZXJ2aWNlQWNjZXNzVG9rZW4iLCJqdGkiOiI1N2Y5ZTAyZS00Nzc5LTRkMTMtYWNhNC1lNGMxMDg4YzdmYjgiLCJpYXQiOiIwOC0xMS0yMDIyIDEzOjE3OjAyIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6Ik1hYW56IiwiRGlzcGxheU5hbWUiOiJBbGV4YW5kZXIgUmVkZGVyIiwiU2VjdXJpdHlMZXZlbCI6IjQiLCJJZCI6IjYiLCJleHAiOjE2Njc5MTcwMjIsImlzcyI6IkpXVEF1dGhlbnRpY2F0aW9uU2VydmVyIiwiYXVkIjoiSldUU2VydmljZUJsYXpvcldhc21DbGllbnQifQ.4jLRypeTUD9-_C9Pb9NEm26hHb-H9gJ8pf6ZF-Xkht46QKOpMxySwcyBLGYgfIfHWlKnDSpbs11QfJJlVnPd0A
+
+###
+
+GET https://localhost:7157/test/authorized
+Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJKV1RTZXJ2aWNlQWNjZXNzVG9rZW4iLCJqdGkiOiI1N2Y5ZTAyZS00Nzc5LTRkMTMtYWNhNC1lNGMxMDg4YzdmYjgiLCJpYXQiOiIwOC0xMS0yMDIyIDEzOjE3OjAyIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6Ik1hYW56IiwiRGlzcGxheU5hbWUiOiJBbGV4YW5kZXIgUmVkZGVyIiwiU2VjdXJpdHlMZXZlbCI6IjQiLCJJZCI6IjYiLCJleHAiOjE2Njc5MTcwMjIsImlzcyI6IkpXVEF1dGhlbnRpY2F0aW9uU2VydmVyIiwiYXVkIjoiSldUU2VydmljZUJsYXpvcldhc21DbGllbnQifQ.4jLRypeTUD9-_C9Pb9NEm26hHb-H9gJ8pf6ZF-Xkht46QKOpMxySwcyBLGYgfIfHWlKnDSpbs11QfJJlVnPd0A
+
+<> 2022-11-08T141717.200.txt
+
+###
+
+POST https://localhost:7157/auth/login
+Content-Type: application/json
+
+{ "Username" : "Maanz", "Password" : "1FinePassword!" }
+
+<> 2022-11-08T141702.200.txt
+
+###
+
+GET https://localhost:7157/test/securitylevel
+Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJKV1RTZXJ2aWNlQWNjZXNzVG9rZW4iLCJqdGkiOiI5MDZiMjA2My03MDNiLTQ2MTYtYTFjMy1lOGY0MjYyNGVlYmMiLCJpYXQiOiIwOC0xMS0yMDIyIDEyOjU1OjQ4IiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6Ik1hYW56IiwiRGlzcGxheU5hbWUiOiJBbGV4YW5kZXIgUmVkZGVyIiwiU2VjdXJpdHlMZXZlbCI6IjQiLCJJZCI6IjYiLCJleHAiOjE2Njc5MTU3NDgsImlzcyI6IkpXVEF1dGhlbnRpY2F0aW9uU2VydmVyIiwiYXVkIjoiSldUU2VydmljZUJsYXpvcldhc21DbGllbnQifQ.AvufsTMB1kU52J0C3kNg7nsNGTD4JF5tbhAUfStgYTgO13of5NGBgUPPiDZnt974i_pxK_6A8fNL0fXPyFiuqA
+
+###
+
+GET https://localhost:7157/test/authorized
+Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJKV1RTZXJ2aWNlQWNjZXNzVG9rZW4iLCJqdGkiOiJkNzM0ZTY2Yi03MmEwLTQ2MTQtOThmOC03ZDBiODBiMWE5YTIiLCJpYXQiOiIwOC0xMS0yMDIyIDEyOjM1OjEzIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6Ik1hYW56IiwiRGlzcGxheU5hbWUiOiJBbGV4YW5kZXIgUmVkZGVyIiwiU2VjdXJpdHlMZXZlbCI6IjQiLCJJZCI6IjYiLCJleHAiOjE2Njc5MTQ1MTMsImlzcyI6IkpXVEF1dGhlbnRpY2F0aW9uU2VydmVyIiwiYXVkIjoiSldUU2VydmljZUJsYXpvcldhc21DbGllbnQifQ.zGeUro6SLFRUszzmMzEyixrgMWFScpzeIBlSoB7dEifZ22YcITC4TkqnUimoNwJeXR-8LROF8plSylTflAx7Bg
+
+###
+
+GET https://localhost:7157/test/authorized
+Authorization: Bearer ebyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJKV1RTZXJ2aWNlQWNjZXNzVG9rZW4iLCJqdGkiOiJkNzM0ZTY2Yi03MmEwLTQ2MTQtOThmOC03ZDBiODBiMWE5YTIiLCJpYXQiOiIwOC0xMS0yMDIyIDEyOjM1OjEzIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6Ik1hYW56IiwiRGlzcGxheU5hbWUiOiJBbGV4YW5kZXIgUmVkZGVyIiwiU2VjdXJpdHlMZXZlbCI6IjQiLCJJZCI6IjYiLCJleHAiOjE2Njc5MTQ1MTMsImlzcyI6IkpXVEF1dGhlbnRpY2F0aW9uU2VydmVyIiwiYXVkIjoiSldUU2VydmljZUJsYXpvcldhc21DbGllbnQifQ.zGeUro6SLFRUszzmMzEyixrgMWFScpzeIBlSoB7dEifZ22YcITC4TkqnUimoNwJeXR-8LROF8plSylTflAx7Bg
+
+###
+
+GET https://localhost:7157/test/authorized
+Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJKV1RTZXJ2aWNlQWNjZXNzVG9rZW4iLCJqdGkiOiJkNzM0ZTY2Yi03MmEwLTQ2MTQtOThmOC03ZDBiODBiMWE5YTIiLCJpYXQiOiIwOC0xMS0yMDIyIDEyOjM1OjEzIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6Ik1hYW56IiwiRGlzcGxheU5hbWUiOiJBbGV4YW5kZXIgUmVkZGVyIiwiU2VjdXJpdHlMZXZlbCI6IjQiLCJJZCI6IjYiLCJleHAiOjE2Njc5MTQ1MTMsImlzcyI6IkpXVEF1dGhlbnRpY2F0aW9uU2VydmVyIiwiYXVkIjoiSldUU2VydmljZUJsYXpvcldhc21DbGllbnQifQ.zGeUro6SLFRUszzmMzEyixrgMWFScpzeIBlSoB7dEifZ22YcITC4TkqnUimoNwJeXR-8LROF8plSylTflAx7Bg
+
+###
+
+GET https://localhost:7157/test/authorized
+Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJKV1RTZXJ2aWNlQWNjZXNzVG9rZW4iLCJqdGkiOiJkNzM0ZTY2Yi03MmEwLTQ2MTQtOThmOC03ZDBiODBiMWE5YTIiLCJpYXQiOiIwOC0xMS0yMDIyIDEyOjM1OjEzIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6Ik1hYW56IiwiRGlzcGxheU5hbWUiOiJBbGV4YW5kZXIgUmVkZGVyIiwiU2VjdXJpdHlMZXZlbCI6IjQiLCJJZCI6IjYiLCJleHAiOjE2Njc5MTQ1MTMsImlzcyI6IkpXVEF1dGhlbnRpY2F0aW9uU2VydmVyIiwiYXVkIjoiSldUU2VydmljZUJsYXpvcldhc21DbGllbnQifQ.zGeUro6SLFRUszzmMzEyixrgMWFScpzeIBlSoB7dEifZ22YcITC4TkqnUimoNwJeXR-8LROF8plSylTflAx7Bg
+
+###
+
+GET https://localhost:7157/test/authorized
+Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJKV1RTZXJ2aWNlQWNjZXNzVG9rZW4iLCJqdGkiOiJkNzM0ZTY2Yi03MmEwLTQ2MTQtOThmOC03ZDBiODBiMWE5YTIiLCJpYXQiOiIwOC0xMS0yMDIyIDEyOjM1OjEzIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6Ik1hYW56IiwiRGlzcGxheU5hbWUiOiJBbGV4YW5kZXIgUmVkZGVyIiwiU2VjdXJpdHlMZXZlbCI6IjQiLCJJZCI6IjYiLCJleHAiOjE2Njc5MTQ1MTMsImlzcyI6IkpXVEF1dGhlbnRpY2F0aW9uU2VydmVyIiwiYXVkIjoiSldUU2VydmljZUJsYXpvcldhc21DbGllbnQifQ.zGeUro6SLFRUszzmMzEyixrgMWFScpzeIBlSoB7dEifZ22YcITC4TkqnUimoNwJeXR-8LROF8plSylTflAx7Bg
+
+###
+
+POST https://localhost:7157/auth/login
+Content-Type: application/json
+
+{ "Username" : "Maanz", "Password" : "1FinePassword!" }
+
+<> 2022-11-08T140647.200.txt
+
+###
+
+GET https://localhost:7157/test/securitylevel
+Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJKV1RTZXJ2aWNlQWNjZXNzVG9rZW4iLCJqdGkiOiI5MDZiMjA2My03MDNiLTQ2MTYtYTFjMy1lOGY0MjYyNGVlYmMiLCJpYXQiOiIwOC0xMS0yMDIyIDEyOjU1OjQ4IiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6Ik1hYW56IiwiRGlzcGxheU5hbWUiOiJBbGV4YW5kZXIgUmVkZGVyIiwiU2VjdXJpdHlMZXZlbCI6IjQiLCJJZCI6IjYiLCJleHAiOjE2Njc5MTU3NDgsImlzcyI6IkpXVEF1dGhlbnRpY2F0aW9uU2VydmVyIiwiYXVkIjoiSldUU2VydmljZUJsYXpvcldhc21DbGllbnQifQ.AvufsTMB1kU52J0C3kNg7nsNGTD4JF5tbhAUfStgYTgO13of5NGBgUPPiDZnt974i_pxK_6A8fNL0fXPyFiuqA
+
+###
+
+POST https://localhost:7157/auth/login
+Content-Type: application/json
+
+{ "Username" : "Maanz", "Password" : "1FinePassword!" }
+
+<> 2022-11-08T135548.200.txt
+
+###
+
+GET https://localhost:7157/test/securitylevel
+Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJKV1RTZXJ2aWNlQWNjZXNzVG9rZW4iLCJqdGkiOiJkOTVkYmQ4MS1iNmNkLTQzOTItYmMxMy1mNGI3YmEzZDVhNGUiLCJpYXQiOiIwOC0xMS0yMDIyIDEyOjUzOjE2IiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6Ik1hYW56IiwiRGlzcGxheU5hbWUiOiJBbGV4YW5kZXIgUmVkZGVyIiwiU2VjdXJpdHlMZXZlbCI6IjQiLCJJZCI6IjYiLCJleHAiOjE2Njc5MTU1OTYsImlzcyI6IkpXVEF1dGhlbnRpY2F0aW9uU2VydmVyIiwiYXVkIjoiSldUU2VydmljZUJsYXpvcldhc21DbGllbnQifQ.Vi-luOXT1Cyi6AxhGW4KMLTq_3S4PVva8mNM0YIooZnS7OrpTdK8wSabnhOfU6Jaqvo3zgpAbVTCsxcEnq7Z9w
+
+<> 2022-11-08T135433.500.txt
+
+###
+
+GET https://localhost:7157/test/securitylevel
+
+<> 2022-11-08T135324.500.txt
+
+###
+
+POST https://localhost:7157/auth/login
+Content-Type: application/json
+
+{ "Username" : "Maanz", "Password" : "1FinePassword!" }
+
+<> 2022-11-08T135316.200.txt
+
+###
+
+GET https://localhost:7157/test/allowanon
+Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJKV1RTZXJ2aWNlQWNjZXNzVG9rZW4iLCJqdGkiOiJkNzM0ZTY2Yi03MmEwLTQ2MTQtOThmOC03ZDBiODBiMWE5YTIiLCJpYXQiOiIwOC0xMS0yMDIyIDEyOjM1OjEzIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6Ik1hYW56IiwiRGlzcGxheU5hbWUiOiJBbGV4YW5kZXIgUmVkZGVyIiwiU2VjdXJpdHlMZXZlbCI6IjQiLCJJZCI6IjYiLCJleHAiOjE2Njc5MTQ1MTMsImlzcyI6IkpXVEF1dGhlbnRpY2F0aW9uU2VydmVyIiwiYXVkIjoiSldUU2VydmljZUJsYXpvcldhc21DbGllbnQifQ.zGeUro6SLFRUszzmMzEyixrgMWFScpzeIBlSoB7dEifZ22YcITC4TkqnUimoNwJeXR-8LROF8plSylTflAx7Bg
+
+<> 2022-11-08T134300.200.txt
+
+###
+
+GET https://localhost:7157/test/authorized
+Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJKV1RTZXJ2aWNlQWNjZXNzVG9rZW4iLCJqdGkiOiJkNzM0ZTY2Yi03MmEwLTQ2MTQtOThmOC03ZDBiODBiMWE5YTIiLCJpYXQiOiIwOC0xMS0yMDIyIDEyOjM1OjEzIiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6Ik1hYW56IiwiRGlzcGxheU5hbWUiOiJBbGV4YW5kZXIgUmVkZGVyIiwiU2VjdXJpdHlMZXZlbCI6IjQiLCJJZCI6IjYiLCJleHAiOjE2Njc5MTQ1MTMsImlzcyI6IkpXVEF1dGhlbnRpY2F0aW9uU2VydmVyIiwiYXVkIjoiSldUU2VydmljZUJsYXpvcldhc21DbGllbnQifQ.zGeUro6SLFRUszzmMzEyixrgMWFScpzeIBlSoB7dEifZ22YcITC4TkqnUimoNwJeXR-8LROF8plSylTflAx7Bg
+
+###
+

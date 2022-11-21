@@ -1,0 +1,68 @@
+{
+  "Users": [
+    {
+      "UserName": "steven",
+      "Id": 1
+    },
+    {
+      "UserName": "jespersk",
+      "Id": 2
+    },
+    {
+      "UserName": "string",
+      "Id": 3
+    },
+    {
+      "UserName": "EGGsander",
+      "Id": 4
+    },
+    {
+      "UserName": "H\u00F8jer",
+      "Id": 5
+    },
+    {
+      "UserName": "Maanz",
+      "Id": 6,
+      "Name": "Alexander Redder",
+      "SecurityLevel": 4
+    }
+  ],
+  "Posts": [
+    {
+      "ID": 1,
+      "OP": {
+        "UserName": "steven",
+        "Id": 1
+      },
+      "Title": "Whats wrong with the world today",
+      "Body": "WAllahs in the city"
+    },
+    {
+      "ID": 2,
+      "OP": {
+        "UserName": "EGGsander",
+        "Id": 4
+      },
+      "Title": "Hej",
+      "Body": ""
+    },
+    {
+      "ID": 3,
+      "OP": {
+        "UserName": "H\u00F8jer",
+        "Id": 5
+      },
+      "Title": "Den gode post",
+      "Body": ""
+    },
+    {
+      "ID": 4,
+      "OP": {
+        "UserName": "EGGsander",
+        "Id": 4
+      },
+      "Title": "Dannebrog",
+      "Body": ""
+    }
+  ]
+}
