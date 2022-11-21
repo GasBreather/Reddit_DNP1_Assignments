@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Skole\\Desktop\\Software ingeniør\\3. Semester\\DNP1\\All_assignments\\Reddit\\Application\\Application.csproj": {}
+    "C:\\Users\\Alexander Redder\\RiderProjects\\Reddit_DNP1_assignments\\Application\\Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Skole\\Desktop\\Software ingeniør\\3. Semester\\DNP1\\All_assignments\\Reddit\\Application\\Application.csproj": {
+    "C:\\Users\\Alexander Redder\\RiderProjects\\Reddit_DNP1_assignments\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Skole\\Desktop\\Software ingeniør\\3. Semester\\DNP1\\All_assignments\\Reddit\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\Alexander Redder\\RiderProjects\\Reddit_DNP1_assignments\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\Skole\\Desktop\\Software ingeniør\\3. Semester\\DNP1\\All_assignments\\Reddit\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\Skole\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Skole\\Desktop\\Software ingeniør\\3. Semester\\DNP1\\All_assignments\\Reddit\\Application\\obj\\",
+        "projectPath": "C:\\Users\\Alexander Redder\\RiderProjects\\Reddit_DNP1_assignments\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\Alexander Redder\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Alexander Redder\\RiderProjects\\Reddit_DNP1_assignments\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Skole\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Alexander Redder\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -26,8 +26,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Skole\\Desktop\\Software ingeniør\\3. Semester\\DNP1\\All_assignments\\Reddit\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\Skole\\Desktop\\Software ingeniør\\3. Semester\\DNP1\\All_assignments\\Reddit\\Domain\\Domain.csproj"
+              "C:\\Users\\Alexander Redder\\RiderProjects\\Reddit_DNP1_assignments\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Alexander Redder\\RiderProjects\\Reddit_DNP1_assignments\\Domain\\Domain.csproj"
               }
             }
           }
@@ -56,21 +56,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.110\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Skole\\Desktop\\Software ingeniør\\3. Semester\\DNP1\\All_assignments\\Reddit\\Domain\\Domain.csproj": {
+    "C:\\Users\\Alexander Redder\\RiderProjects\\Reddit_DNP1_assignments\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Skole\\Desktop\\Software ingeniør\\3. Semester\\DNP1\\All_assignments\\Reddit\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Alexander Redder\\RiderProjects\\Reddit_DNP1_assignments\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\Skole\\Desktop\\Software ingeniør\\3. Semester\\DNP1\\All_assignments\\Reddit\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\Skole\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Skole\\Desktop\\Software ingeniør\\3. Semester\\DNP1\\All_assignments\\Reddit\\Domain\\obj\\",
+        "projectPath": "C:\\Users\\Alexander Redder\\RiderProjects\\Reddit_DNP1_assignments\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\Alexander Redder\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Alexander Redder\\RiderProjects\\Reddit_DNP1_assignments\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Skole\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Alexander Redder\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -114,7 +114,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.110\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
