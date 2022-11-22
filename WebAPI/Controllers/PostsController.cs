@@ -38,8 +38,8 @@ public class PostsController : ControllerBase
         try
         {
             SearchPostParametersDto parameters = new(userName, userId, titleContains);
-            var todos = await postLogic.GetAsync(parameters);
-            return Ok(todos);
+            var posts = await postLogic.GetAsync(parameters);
+            return Ok(posts);
         }
         catch (Exception e)
         {
@@ -76,11 +76,11 @@ public class PostsController : ControllerBase
         }
     }
     [HttpGet("{id:int}")]
-    public async Task<ActionResult<PostBasicDto>> GetById([FromRoute] int id)
+    public async Task<ActionResult<Post>> GetById([FromRoute] int id)
     {
         try
         {
-            PostBasicDto result = await postLogic.GetByIdAsync(id);
+            Post result = await postLogic.GetByIdAsync(id);
             return Ok(result);
         }
         catch (Exception e)

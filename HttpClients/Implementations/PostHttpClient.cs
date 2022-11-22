@@ -42,6 +42,22 @@ public class PostHttpClient : IPostService
         })!;
         return posts;
     }
+    public async Task<Post> GetByIdAsync(int postId) {
+        HttpResponseMessage response = await client.GetAsync($"/post/{postId}");
+        string content = await response.Content.ReadAsStringAsync();
+
+        if (response.StatusCode == System.Net.HttpStatusCode.NotFound) {
+            throw new Exception(content);
+        }
+        else if (!response.IsSuccessStatusCode) {
+            throw new Exception(content);
+        }
+
+        Post post = JsonSerializer.Deserialize<Post>(content, new JsonSerializerOptions {
+            PropertyNameCaseInsensitive = true
+        })!;
+        return post;
+    }
     private static string ConstructQuery(string? userName, int? userId, string? titleContains)
     {
         string query = "";

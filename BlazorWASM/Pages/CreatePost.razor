@@ -52,7 +52,7 @@
     private int? selectedUserId;
     private string postTitle = "";
     private string postBody = "";
-
+    private string OP = "";
     private string message = "";
 
     protected override async Task OnInitializedAsync()
@@ -85,7 +85,7 @@
 
         try
         {
-            PostCreationDto dto = new((int)selectedUserId, postTitle, postBody);
+            PostCreationDto dto = new((int)selectedUserId,OP, postTitle, postBody);
             await postService.CreateAsync(dto);
             navMgr.NavigateTo("/");
         }

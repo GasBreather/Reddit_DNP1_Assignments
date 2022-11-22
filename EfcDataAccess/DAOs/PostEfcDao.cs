@@ -1,6 +1,7 @@
 ﻿using Application.DaoInterfaces;
 using Domain.DTOs;
 using Domain.Models;
+
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
 
@@ -8,6 +9,11 @@ namespace EfcDataAccess.DAOs;
 
 public class PostEfcDao : IPostDao
 {
+    private readonly PostContext context;
+
+    public PostEfcDao(PostContext context) {
+        this.context = context;
+    }
     public async Task<Post> CreateAsync(Post post)
     {
         EntityEntry<Post> added = await context.Posts.AddAsync(post);
@@ -61,12 +67,5 @@ public class PostEfcDao : IPostDao
 
         context.Posts.Remove(existing);
         await context.SaveChangesAsync();
-    }
-    
-    private readonly PostContext context;
-
-    public PostEfcDao(PostContext context)
-    {
-        this.context = context;
     }
 }

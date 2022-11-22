@@ -1,0 +1,43 @@
+@page "/ViewSpecificPost/{id:int}"
+@using Domain.DTOs
+@using Domain.Models
+@using HttpClients.ClientInterfaces
+@inject IPostService postService
+
+<div class="card">
+    {
+        <div class="container">
+            <div class="row">
+                <h6>@postData.Title</h6>
+                <h4>Posted by @postData.OP</h4>
+                <div>@postData.Body</div>
+            </div>
+        </div>
+    }
+    @if (!string.IsNullOrEmpty(msg))
+    {
+        <label style="color: red">@msg</label>
+    }
+</div>
+@code {
+    [Parameter]
+    public int Id { get; set; }
+
+    private PostUpdateDto dto = null!;
+    private string msg = "";
+    private Post postData;
+    
+    protected override async Task OnInitializedAsync()
+    {
+        msg = "";
+        try
+        {
+            postData = await postService.GetByIdAsync(Id);
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            msg = e.Message;
+        }
+    }
+}

@@ -1,18 +1,18 @@
-﻿namespace Domain.DTOs;
+﻿using Domain.Models;
+
+namespace Domain.DTOs;
 
 public class PostBasicDto
 {
-    public int Id { get; }
-    public string OpUsername { get; }
-    public string Title { get; }
-    public string Body { get; }
-    
+    public int ID { get; set; }
+    public User OP { get; set; }
+    public string Title { get; set; }
+    public string Body { get; set; }
 
-    public PostBasicDto(int id, string opUsername, string title, string body)
+    public PostBasicDto(User OP, string Title, string Body)
     {
-        Id = id;
-        OpUsername = opUsername;
-        Title = title;
-        Body = body;
+        this.OP = OP;
+        this.Title = Title;
+        this.Body = Body;
     }
 }

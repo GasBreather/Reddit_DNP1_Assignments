@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using Application.DaoInterfaces;
 using Application.LogicInterfaces;
 using Domain.Models;
 
@@ -7,21 +8,15 @@ namespace Application.Logic;
 public class AuthLogic : IAuthLogic
 {
 
-    private readonly IList<User> users = new List<User>
-    {
-        new User
-        {
-            UserName = "Maanz",
-            Password = "1FinePassword!",
-            Name = "Alexander Redder",
-            Id = 6
-        }
-    };
+    private readonly IUserDao userDao;
 
-    public Task<User> ValidateUser(string username, string password)
+    public AuthLogic(IUserDao userDao) {
+        this.userDao = userDao;
+    }
+
+    public async Task<User> ValidateUser(string username, string password)
     {
-        User? existingUser = users.FirstOrDefault(u => 
-            u.UserName.Equals(username, StringComparison.OrdinalIgnoreCase));
+        User? existingUser = await userDao.GetByUsernameAsync(username);
         
         if (existingUser == null)
         {
@@ -33,7 +28,7 @@ public class AuthLogic : IAuthLogic
             throw new Exception("Password mismatch");
         }
 
-        return Task.FromResult(existingUser);
+        return existingUser;
     }
     
     public Task RegisterUser(User user)
@@ -52,7 +47,7 @@ public class AuthLogic : IAuthLogic
         
         // save to persistence instead of list
         
-        users.Add(user);
+        userDao.CreateAsync(user);
         
         return Task.CompletedTask;
     }

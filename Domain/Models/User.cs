@@ -1,6 +1,4 @@
-﻿using System.Text.Json.Serialization;
-
-namespace Domain.Models;
+﻿namespace Domain.Models;
 
 public class User
 {
@@ -8,6 +6,6 @@ public class User
     public string Password { get; set; }
     public string Name { get; set; }
     public int Id { get; set; }
-    [JsonIgnore]
+    
     public ICollection<Post> Posts { get; set; }
 }

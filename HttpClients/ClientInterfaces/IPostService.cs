@@ -12,4 +12,7 @@ public interface IPostService
         int? userId,
         string? titleContains
     );
+
+    Task<Post> GetByIdAsync(int id);
+    
 }

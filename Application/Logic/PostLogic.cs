@@ -91,7 +91,7 @@ public class PostLogic : IPostLogic
         return postDao.GetAsync(searchParameters);
     }
 
-    public async Task<PostBasicDto> GetByIdAsync(int id)
+    public async Task<Post> GetByIdAsync(int id)
     {
         Post? post = await postDao.GetByIdAsync(id);
         if (post == null)
@@ -99,7 +99,7 @@ public class PostLogic : IPostLogic
             throw new Exception($"Post with id {id} not found");
         }
 
-        return new PostBasicDto(post.ID, post.OP.UserName, post.Title, post.Body);
+        return post;
     }
 
 
