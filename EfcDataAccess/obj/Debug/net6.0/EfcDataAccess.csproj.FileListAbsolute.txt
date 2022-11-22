@@ -17,3 +17,22 @@ C:\Users\Alexander Redder\RiderProjects\Reddit_DNP1_Assignments\EfcDataAccess\ob
 C:\Users\Alexander Redder\RiderProjects\Reddit_DNP1_Assignments\EfcDataAccess\obj\Debug\net6.0\EfcDataAccess.pdb
 C:\Users\Alexander Redder\RiderProjects\Reddit_DNP1_Assignments\EfcDataAccess\bin\Debug\net6.0\EfcDataAccess.runtimeconfig.json
 C:\Users\Alexander Redder\RiderProjects\Reddit_DNP1_Assignments\EfcDataAccess\obj\Debug\net6.0\EfcDataAccess.genruntimeconfig.cache
+C:\Users\Skole\Desktop\Software ingeniør\3. Semester\DNP1\All_assignments\Reddit\EfcDataAccess\bin\Debug\net6.0\EfcDataAccess.deps.json
+C:\Users\Skole\Desktop\Software ingeniør\3. Semester\DNP1\All_assignments\Reddit\EfcDataAccess\bin\Debug\net6.0\EfcDataAccess.runtimeconfig.json
+C:\Users\Skole\Desktop\Software ingeniør\3. Semester\DNP1\All_assignments\Reddit\EfcDataAccess\bin\Debug\net6.0\EfcDataAccess.dll
+C:\Users\Skole\Desktop\Software ingeniør\3. Semester\DNP1\All_assignments\Reddit\EfcDataAccess\bin\Debug\net6.0\ref\EfcDataAccess.dll
+C:\Users\Skole\Desktop\Software ingeniør\3. Semester\DNP1\All_assignments\Reddit\EfcDataAccess\bin\Debug\net6.0\EfcDataAccess.pdb
+C:\Users\Skole\Desktop\Software ingeniør\3. Semester\DNP1\All_assignments\Reddit\EfcDataAccess\bin\Debug\net6.0\Application.dll
+C:\Users\Skole\Desktop\Software ingeniør\3. Semester\DNP1\All_assignments\Reddit\EfcDataAccess\bin\Debug\net6.0\Domain.dll
+C:\Users\Skole\Desktop\Software ingeniør\3. Semester\DNP1\All_assignments\Reddit\EfcDataAccess\bin\Debug\net6.0\Application.pdb
+C:\Users\Skole\Desktop\Software ingeniør\3. Semester\DNP1\All_assignments\Reddit\EfcDataAccess\bin\Debug\net6.0\Domain.pdb
+C:\Users\Skole\Desktop\Software ingeniør\3. Semester\DNP1\All_assignments\Reddit\EfcDataAccess\obj\Debug\net6.0\EfcDataAccess.csproj.AssemblyReference.cache
+C:\Users\Skole\Desktop\Software ingeniør\3. Semester\DNP1\All_assignments\Reddit\EfcDataAccess\obj\Debug\net6.0\EfcDataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Skole\Desktop\Software ingeniør\3. Semester\DNP1\All_assignments\Reddit\EfcDataAccess\obj\Debug\net6.0\EfcDataAccess.AssemblyInfoInputs.cache
+C:\Users\Skole\Desktop\Software ingeniør\3. Semester\DNP1\All_assignments\Reddit\EfcDataAccess\obj\Debug\net6.0\EfcDataAccess.AssemblyInfo.cs
+C:\Users\Skole\Desktop\Software ingeniør\3. Semester\DNP1\All_assignments\Reddit\EfcDataAccess\obj\Debug\net6.0\EfcDataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Skole\Desktop\Software ingeniør\3. Semester\DNP1\All_assignments\Reddit\EfcDataAccess\obj\Debug\net6.0\EfcDataAccess.csproj.CopyComplete
+C:\Users\Skole\Desktop\Software ingeniør\3. Semester\DNP1\All_assignments\Reddit\EfcDataAccess\obj\Debug\net6.0\EfcDataAccess.dll
+C:\Users\Skole\Desktop\Software ingeniør\3. Semester\DNP1\All_assignments\Reddit\EfcDataAccess\obj\Debug\net6.0\ref\EfcDataAccess.dll
+C:\Users\Skole\Desktop\Software ingeniør\3. Semester\DNP1\All_assignments\Reddit\EfcDataAccess\obj\Debug\net6.0\EfcDataAccess.pdb
+C:\Users\Skole\Desktop\Software ingeniør\3. Semester\DNP1\All_assignments\Reddit\EfcDataAccess\obj\Debug\net6.0\EfcDataAccess.genruntimeconfig.cache

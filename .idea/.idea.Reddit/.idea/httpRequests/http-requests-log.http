@@ -1,4 +1,20 @@
-﻿POST https://localhost:7157/auth/login
+﻿GET https://localhost:7157/test/authorized
+Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJKV1RTZXJ2aWNlQWNjZXNzVG9rZW4iLCJqdGkiOiJhYjJkZTk2NC01YmM3LTRjYjEtYjVlNC05N2YyOGIzNjZjMjEiLCJpYXQiOiIyMi0xMS0yMDIyIDEwOjI3OjM4IiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6Ik1hYW56IiwiRGlzcGxheU5hbWUiOiJBbGV4YW5kZXIgUmVkZGVyIiwiSWQiOiI2IiwiZXhwIjoxNjY5MTE2NDU4LCJpc3MiOiJKV1RBdXRoZW50aWNhdGlvblNlcnZlciIsImF1ZCI6IkpXVFNlcnZpY2VCbGF6b3JXYXNtQ2xpZW50In0.mHx14nxFiOmou76j7LF5El4zDkArvEhGGzNKiKNQbCxOpE8VbczcXl4_X4x49UDmEfZcWyxHjJ4jV7J6TpLQvg
+
+<> 2022-11-22T112750.200.txt
+
+###
+
+POST https://localhost:7157/auth/login
+Content-Type: application/json
+
+{ "userName" : "Maanz", "Password" : "1FinePassword!" }
+
+<> 2022-11-22T112738.200.txt
+
+###
+
+POST https://localhost:7157/auth/login
 Content-Type: application/json
 
 { "userName" : "Maanz", "Password" : "1FinePassword!" }
@@ -337,22 +353,6 @@ Content-Type: application/json
 { "Username" : "Maanz", "Password" : "1FinePassword!" }
 
 <> 2022-11-08T142546.200.txt
-
-###
-
-GET https://localhost:7157/test/authorized
-Authorization: Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJKV1RTZXJ2aWNlQWNjZXNzVG9rZW4iLCJqdGkiOiJiZGEzNmM3ZS04OWE0LTQwNmEtYTI1Ny0xN2ExODlkZWYzOGEiLCJpYXQiOiIwOC0xMS0yMDIyIDEzOjI0OjA5IiwiaHR0cDovL3NjaGVtYXMueG1sc29hcC5vcmcvd3MvMjAwNS8wNS9pZGVudGl0eS9jbGFpbXMvbmFtZSI6Ik1hYW56IiwiRGlzcGxheU5hbWUiOiJBbGV4YW5kZXIgUmVkZGVyIiwiU2VjdXJpdHlMZXZlbCI6IjQiLCJJZCI6IjYiLCJleHAiOjE2Njc5MTc0NDksImlzcyI6IkpXVEF1dGhlbnRpY2F0aW9uU2VydmVyIiwiYXVkIjoiSldUU2VydmljZUJsYXpvcldhc21DbGllbnQifQ.K8YEfLsR8cv5BCt2smrjdAmlGPZ8nhGCmOsaClNS1txc-iLTL9xr3xBbH3KBqnr1S279A2ScbdisC9EtwkACYA
-
-<> 2022-11-08T142527.200.txt
-
-###
-
-POST https://localhost:7157/auth/login
-Content-Type: application/json
-
-{ "Username" : "Maanz", "Password" : "1FinePassword!" }
-
-<> 2022-11-08T142410.200.txt
 
 ###
 
