@@ -6,5 +6,6 @@ public class User
     public string Password { get; set; }
     public string Name { get; set; }
     public int Id { get; set; }
-    public int SecurityLevel { get; set; }
+    
+    public ICollection<Post> Posts { get; set; }
 }

@@ -46,3 +46,15 @@ C:\Users\Skole\Desktop\Software ingeniør\3. Semester\DNP1\All_assignments\Reddi
 C:\Users\Skole\Desktop\Software ingeniør\3. Semester\DNP1\All_assignments\Reddit\Domain\obj\Debug\net6.0\Domain.dll
 C:\Users\Skole\Desktop\Software ingeniør\3. Semester\DNP1\All_assignments\Reddit\Domain\obj\Debug\net6.0\ref\Domain.dll
 C:\Users\Skole\Desktop\Software ingeniør\3. Semester\DNP1\All_assignments\Reddit\Domain\obj\Debug\net6.0\Domain.pdb
+C:\Users\Alexander Redder\RiderProjects\Reddit_DNP1_assignments\Domain\bin\Debug\net6.0\Domain.deps.json
+C:\Users\Alexander Redder\RiderProjects\Reddit_DNP1_assignments\Domain\bin\Debug\net6.0\Domain.dll
+C:\Users\Alexander Redder\RiderProjects\Reddit_DNP1_assignments\Domain\bin\Debug\net6.0\ref\Domain.dll
+C:\Users\Alexander Redder\RiderProjects\Reddit_DNP1_assignments\Domain\bin\Debug\net6.0\Domain.pdb
+C:\Users\Alexander Redder\RiderProjects\Reddit_DNP1_assignments\Domain\obj\Debug\net6.0\Domain.csproj.AssemblyReference.cache
+C:\Users\Alexander Redder\RiderProjects\Reddit_DNP1_assignments\Domain\obj\Debug\net6.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alexander Redder\RiderProjects\Reddit_DNP1_assignments\Domain\obj\Debug\net6.0\Domain.AssemblyInfoInputs.cache
+C:\Users\Alexander Redder\RiderProjects\Reddit_DNP1_assignments\Domain\obj\Debug\net6.0\Domain.AssemblyInfo.cs
+C:\Users\Alexander Redder\RiderProjects\Reddit_DNP1_assignments\Domain\obj\Debug\net6.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\Alexander Redder\RiderProjects\Reddit_DNP1_assignments\Domain\obj\Debug\net6.0\Domain.dll
+C:\Users\Alexander Redder\RiderProjects\Reddit_DNP1_assignments\Domain\obj\Debug\net6.0\ref\Domain.dll
+C:\Users\Alexander Redder\RiderProjects\Reddit_DNP1_assignments\Domain\obj\Debug\net6.0\Domain.pdb
