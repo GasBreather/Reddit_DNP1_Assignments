@@ -52,9 +52,11 @@ public class PostEfcDao : IPostDao
         throw new NotImplementedException();
     }
 
-    public Task<Post?> GetByIdAsync(int postId)
+    public async Task<Post?> GetByIdAsync(int postId)
     {
-        throw new NotImplementedException();
+        Post? result = await context.Posts.Include(p => p.OP)
+            .FirstOrDefaultAsync(p => p.ID == postId);
+        return result;
     }
 
     public async Task DeleteAsync(int id)

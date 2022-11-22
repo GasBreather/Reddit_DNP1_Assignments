@@ -24,7 +24,7 @@ public class PostLogic : IPostLogic
         }
 
         ValidatePost(dto);
-        Post post = new Post(user, dto.Title, dto.Body);
+        Post post = new Post(dto.OwnerId, user, dto.Title, dto.Body);
         Post created = await postDao.CreateAsync(post);
         return created;
     }
@@ -47,13 +47,13 @@ public class PostLogic : IPostLogic
                     throw new Exception($"User with id {dto.OwnerId} was not found.");
                 }
             }
-            
 
+            int idToUse = dto.OwnerId ?? existing.ID;
             User userToUse = user ?? existing.OP;
             string titleToUse = dto.Title ?? existing.Title;
             string bodyToUse = dto.Body ?? existing.Body;
 
-            Post updated = new(userToUse, titleToUse, bodyToUse)
+            Post updated = new(idToUse, userToUse, titleToUse, bodyToUse)
             {
                 ID = existing.ID,
             };

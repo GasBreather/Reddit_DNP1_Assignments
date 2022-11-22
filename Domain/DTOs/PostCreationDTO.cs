@@ -1,6 +1,4 @@
-﻿using Domain.Models;
-
-namespace Domain.DTOs;
+﻿namespace Domain.DTOs;
 public class PostCreationDto
 {
     public int OwnerId { get; }

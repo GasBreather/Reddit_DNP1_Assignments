@@ -18,7 +18,7 @@ public class PostsController : ControllerBase
         this.postLogic = postLogic;
     }
     [HttpPost]
-    public async Task<ActionResult<Post>> CreateAsync([FromBody]PostCreationDto dto)
+    public async Task<ActionResult<Post>> CreateAsync(PostCreationDto dto)
     {
         try
         {
@@ -76,7 +76,7 @@ public class PostsController : ControllerBase
         }
     }
     [HttpGet("{id:int}")]
-    public async Task<ActionResult<Post>> GetById([FromRoute] int id)
+    public async Task<ActionResult<Post>> GetByIdAsync([FromRoute] int id)
     {
         try
         {

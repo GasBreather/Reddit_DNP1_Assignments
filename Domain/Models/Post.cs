@@ -1,8 +1,4 @@
-﻿using System.ComponentModel.DataAnnotations;
-using System.Reflection.Metadata;
-using Domain.DTOs;
-
-namespace Domain.Models;
+﻿namespace Domain.Models;
 
 public class Post
 {
@@ -11,8 +7,9 @@ public class Post
     public string Title { get; set; }
     public string Body { get; set; }
 
-    public Post(User OP, string Title, string Body)
+    public Post(int id, User OP, string Title, string Body)
     {
+        this.ID = id;
         this.OP = OP;
         this.Title = Title;
         this.Body = Body;

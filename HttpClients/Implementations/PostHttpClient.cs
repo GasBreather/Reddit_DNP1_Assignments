@@ -43,7 +43,7 @@ public class PostHttpClient : IPostService
         return posts;
     }
     public async Task<Post> GetByIdAsync(int postId) {
-        HttpResponseMessage response = await client.GetAsync($"/post/{postId}");
+        HttpResponseMessage response = await client.GetAsync($"/posts/{postId}");
         string content = await response.Content.ReadAsStringAsync();
 
         if (response.StatusCode == System.Net.HttpStatusCode.NotFound) {
