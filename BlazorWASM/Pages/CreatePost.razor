@@ -68,6 +68,7 @@
             message = e.Message;
         }
     }
+    
 
     private async Task Create()
     {
@@ -85,7 +86,7 @@
 
         try
         {
-            PostCreationDto dto = new((int)selectedUserId,OP, postTitle, postBody);
+            PostCreationDto dto = new((int)selectedUserId, OP, postTitle, postBody);
             await postService.CreateAsync(dto);
             navMgr.NavigateTo("/");
         }

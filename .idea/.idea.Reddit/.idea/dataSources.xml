@@ -8,5 +8,12 @@
       <jdbc-url>jdbc:sqlite:C:\Users\Skole\Desktop\Software ingeniør\3. Semester\DNP1\All_assignments\Reddit\EfcDataAccess\Post.db</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
+    <data-source source="LOCAL" name="Post [2]" uuid="5b126ba6-0414-454b-8da3-77a3f5f5c78a">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:C:\Users\Alexander Redder\RiderProjects\Reddit_DNP1_Assignments\EfcDataAccess\Post.db</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
   </component>
 </project>

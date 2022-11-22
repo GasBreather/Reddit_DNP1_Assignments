@@ -1,4 +1,6 @@
-﻿namespace Domain.DTOs;
+﻿using Domain.Models;
+
+namespace Domain.DTOs;
 public class PostCreationDto
 {
     public int OwnerId { get; }
@@ -6,11 +8,12 @@ public class PostCreationDto
     public string Title { get; }
     public string Body { get; }
 
-    public PostCreationDto(int id, string OP, string title, string body)
+    public PostCreationDto(int ownerId, string OP, string title, string body)
     {
-        OwnerId = id;
+        OwnerId = ownerId;
         this.OP = OP;
         Title = title;
         Body = body;
     }
+    private PostCreationDto(){}
 }
