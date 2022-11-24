@@ -190,68 +190,6 @@
         }
       }
     },
-    "C:\\Users\\Alexander Redder\\RiderProjects\\Reddit_DNP1_Assignments\\FileData\\FileData.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\Alexander Redder\\RiderProjects\\Reddit_DNP1_Assignments\\FileData\\FileData.csproj",
-        "projectName": "FileData",
-        "projectPath": "C:\\Users\\Alexander Redder\\RiderProjects\\Reddit_DNP1_Assignments\\FileData\\FileData.csproj",
-        "packagesPath": "C:\\Users\\Alexander Redder\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alexander Redder\\RiderProjects\\Reddit_DNP1_Assignments\\FileData\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\Alexander Redder\\AppData\\Roaming\\NuGet\\NuGet.Config"
-        ],
-        "originalTargetFrameworks": [
-          "net6.0"
-        ],
-        "sources": {
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
-            "projectReferences": {
-              "C:\\Users\\Alexander Redder\\RiderProjects\\Reddit_DNP1_Assignments\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\Alexander Redder\\RiderProjects\\Reddit_DNP1_Assignments\\Application\\Application.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
-          "dependencies": {
-            "shortid": {
-              "target": "Package",
-              "version": "[4.0.0, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
     "C:\\Users\\Alexander Redder\\RiderProjects\\Reddit_DNP1_Assignments\\WebAPI\\WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -279,9 +217,6 @@
               },
               "C:\\Users\\Alexander Redder\\RiderProjects\\Reddit_DNP1_Assignments\\EfcDataAccess\\EfcDataAccess.csproj": {
                 "projectPath": "C:\\Users\\Alexander Redder\\RiderProjects\\Reddit_DNP1_Assignments\\EfcDataAccess\\EfcDataAccess.csproj"
-              },
-              "C:\\Users\\Alexander Redder\\RiderProjects\\Reddit_DNP1_Assignments\\FileData\\FileData.csproj": {
-                "projectPath": "C:\\Users\\Alexander Redder\\RiderProjects\\Reddit_DNP1_Assignments\\FileData\\FileData.csproj"
               }
             }
           }

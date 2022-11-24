@@ -2539,3 +2539,4 @@ C:\Users\Alexander Redder\RiderProjects\Reddit_DNP1_Assignments\BlazorWASM\obj\D
 C:\Users\Alexander Redder\RiderProjects\Reddit_DNP1_Assignments\BlazorWASM\obj\Debug\net6.0\BlazorWASM.dll
 C:\Users\Alexander Redder\RiderProjects\Reddit_DNP1_Assignments\BlazorWASM\obj\Debug\net6.0\ref\BlazorWASM.dll
 C:\Users\Alexander Redder\RiderProjects\Reddit_DNP1_Assignments\BlazorWASM\obj\Debug\net6.0\BlazorWASM.pdb
+C:\Users\Alexander Redder\RiderProjects\Reddit_DNP1_Assignments\BlazorWASM\obj\Debug\net6.0\scopedcss\Pages\ViewSpecificPost.razor.rz.scp.css

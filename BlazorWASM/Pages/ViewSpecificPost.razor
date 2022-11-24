@@ -4,16 +4,19 @@
 @using HttpClients.ClientInterfaces
 @inject IPostService postService
 
-<div class="card">
-    {
-        <div class="container">
-            <div class="row">
-                <h3><strong>@postData.Title</strong></h3>
-                <h3><strong>Posted by: </strong>@postData.OP.UserName</h3>
-                <h6>@postData.Body</h6>
-            </div>
+<div>
+    <div class="card" style="width: 800px;">
+    <div class="container">
+        <div class="row">
+            <h2><strong>@postData.Title</strong></h2>
+            <br/>
+            <h4><strong>Posted by: </strong>@postData.OP.UserName</h4>
+            <br/>
+            <br/>
+            <h6>@postData.Body</h6>
         </div>
-    }
+    </div>
+    </div>
     @if (!string.IsNullOrEmpty(msg))
     {
         <label style="color: red">@msg</label>

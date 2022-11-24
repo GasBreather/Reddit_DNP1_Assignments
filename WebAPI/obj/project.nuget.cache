@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "bYOJ8AT8zuQehacZq/v2AnU1pMbWzG9A6CegvBy5RM/eRqy6RvqTOK5fuyvlxcyTACTeIZW4u3PSvUIcJebiow==",
+  "dgSpecHash": "demmG/PyaaMHvHvrMixfoO7Dhcvfn078YoqVeFw/KdbeJqN9HwJMlvk6NANDFQIrSVrHPhR9Fw+v7vLl7QZPEg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Alexander Redder\\RiderProjects\\Reddit_DNP1_Assignments\\WebAPI\\WebAPI.csproj",
   "expectedPackageFiles": [
@@ -32,7 +32,6 @@
     "C:\\Users\\Alexander Redder\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\6.10.0\\microsoft.identitymodel.protocols.openidconnect.6.10.0.nupkg.sha512",
     "C:\\Users\\Alexander Redder\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.10.0\\microsoft.identitymodel.tokens.6.10.0.nupkg.sha512",
     "C:\\Users\\Alexander Redder\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
-    "C:\\Users\\Alexander Redder\\.nuget\\packages\\shortid\\4.0.0\\shortid.4.0.0.nupkg.sha512",
     "C:\\Users\\Alexander Redder\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.1.2\\sqlitepclraw.bundle_e_sqlite3.2.1.2.nupkg.sha512",
     "C:\\Users\\Alexander Redder\\.nuget\\packages\\sqlitepclraw.core\\2.1.2\\sqlitepclraw.core.2.1.2.nupkg.sha512",
     "C:\\Users\\Alexander Redder\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.1.2\\sqlitepclraw.lib.e_sqlite3.2.1.2.nupkg.sha512",

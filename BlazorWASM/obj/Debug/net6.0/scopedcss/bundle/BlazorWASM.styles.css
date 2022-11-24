@@ -52,6 +52,13 @@
     margin: 5px;
     text-align: center;
 }
+/* /Pages/ViewSpecificPost.razor.rz.scp.css */
+.post-card[b-j8tph2esau] {
+    width: 320px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0;
+}
 /* /Pages/ViewUsers.razor.rz.scp.css */
 .user-card[b-b8bn5keb44] {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
